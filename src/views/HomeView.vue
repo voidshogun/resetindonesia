@@ -12,7 +12,7 @@
 
         <!-- Main Content: Inputs and Canvas -->
         <div class="flex flex-col lg:flex-row gap-8">
-          
+          <p class="text-sm text-center">Your photos are processed locally in your browser and are never stored on any server or in the cloud.</p>
           <!-- Controls -->
           <div class="lg:w-1/3 w-full flex flex-col space-y-6">
             <!-- Step 1: Upload Image -->
