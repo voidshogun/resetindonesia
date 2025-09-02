@@ -6,8 +6,8 @@
         
         <!-- Header -->
         <div class="text-center mb-8">
-          <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">#ResetIndonesia</h1>
-          <p class="text-gray-200">Add filter #resetindonesia to your photo instantly.</p>
+          <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">Pesona Rakyat Jelita</h1>
+          <p class="text-gray-200">Add filter Pesona Rakyat Jelita to your photo instantly.</p>
         </div>
 
         <!-- Main Content: Inputs and Canvas -->
