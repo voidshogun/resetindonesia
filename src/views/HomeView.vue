@@ -5,26 +5,38 @@
       <div class="bg-gradient-to-b from-pink-600 to-pink-400 rounded-2xl shadow-2xl p-6 md:p-10 border border-pink-700">
         
         <!-- Header -->
-        <div class="text-center mb-8">
+        <div class="text-center mb-6">
           <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">Pesona Rakyat Jelita</h1>
-          <p class="text-gray-200">Add filter Pesona Rakyat Jelita to your photo instantly.</p>
+          <p class="text-gray-200">Add the Pesona Rakyat Jelita filter to your photo instantly.</p>
+        </div>
+
+        <!-- Privacy Notice -->
+        <div class="flex items-center justify-center bg-gray-900/30 border border-pink-300/40 rounded-xl p-4 mb-8 shadow-inner">
+          <svg class="h-6 w-6 text-emerald-300 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-width="2" d="M12 15c.828 0 1.5-.672 1.5-1.5S12.828 12 12 12s-1.5.672-1.5 1.5S11.172 15 12 15z" />
+            <path stroke="currentColor" stroke-width="2" d="M17 8V6a5 5 0 00-10 0v2H5v12h14V8h-2zm-8-2a3 3 0 016 0v2H9V6z" />
+          </svg>
+          <p class="text-sm text-white font-medium">
+            Your photos are <span class="font-bold text-emerald-300">processed locally</span> in your browser —
+            <span class="underline">never uploaded or stored</span>.
+          </p>
         </div>
 
         <!-- Main Content: Inputs and Canvas -->
         <div class="flex flex-col lg:flex-row gap-8">
-          <p class="text-sm text-center">Your photos are processed locally in your browser and are never stored on any server or in the cloud.</p>
+          
           <!-- Controls -->
           <div class="lg:w-1/3 w-full flex flex-col space-y-6">
             <!-- Step 1: Upload Image -->
             <div class="bg-gray-700/20 p-5 rounded-lg">
               <div class="flex items-center mb-3">
                 <div class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg mr-4">1</div>
-                <h2 class="text-xl font-semibold text-white">Unggah Foto</h2>
+                <h2 class="text-xl font-semibold text-white">Upload Foto</h2>
               </div>
               <label for="image-upload" class="btn btn-primary w-full text-center cursor-pointer">
                 Pilih Foto
               </label>
-              <input id="image-upload" type="file" @change="handleImageUpload" accept="image/*" class="file-input">
+              <input id="image-upload" type="file" @change="handleImageUpload" accept="image/*" class="file-input hidden">
               <p v-if="imageFileName" class="text-xs text-gray-400 mt-2 text-center truncate">{{ imageFileName }}</p>
             </div>
 
@@ -60,7 +72,7 @@
       <div class="max-w-4xl mx-auto px-4 flex flex-col items-center text-center">
         <h3 class="text-lg font-semibold text-white">#ResetIndonesia</h3>
         <p class="text-sm mt-2 text-white">&copy; @unbothered__space | luts by @ramandadwiputra</p>
-        <p class="text-sm mt-2 text-white">Make this site even better, Contribute on <a target="_blank" class="underline text-sm text-white" href="https://github.com/voidshogun/resetindonesia.git">Github.</a></p>
+        <p class="text-sm mt-2 text-white">Contribute on <a target="_blank" class="underline text-sm text-white" href="https://github.com/voidshogun/resetindonesia.git">Github</a></p>
       </div>
     </footer>
   </div>
